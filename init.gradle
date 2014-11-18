@@ -1,0 +1,7 @@
+allprojects {
+    println "Applying init logic to project '$it.name' with path '$it.path'"
+
+    repositories {        
+        mavenCentral()
+    }
+}
